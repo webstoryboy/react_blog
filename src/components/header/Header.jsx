@@ -16,16 +16,16 @@ export default function Header() {
                         <a href="/">HOME</a>
                     </li>
                     <li>
-                        <a href="/">LOGIN</a>
+                        <a href="/login">LOGIN</a>
                     </li>
                     <li>
-                        <a href="/">CONTACT</a>
+                        <a href="/join">JOIN</a>
                     </li>
                     <li>
-                        <a href="/">WRITE</a>
+                        <a href="/view">POST</a>
                     </li>
                     <li>
-                        <a href="/">LOGOUT</a>
+                        <a href="/write">WRITE</a>
                     </li>
                 </ul>
             </nav>
