@@ -7,6 +7,7 @@ import Login from "./pages/login/Login";
 import Join from "./pages/join/Join";
 import View from "./pages/view/View";
 import Write from "./pages/write/Write";
+import Mypage from "./pages/mypage/Mypage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
                 </Route>
                 <Route path="/write">
                     <Write />
+                </Route>
+                <Route path="/mypage">
+                    <Mypage />
                 </Route>
             </Switch>
             <Footer />
